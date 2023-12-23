@@ -31,7 +31,7 @@ def sign_up(request):
             myuser.save()
             # user.save()
 
-            messages.success(request,"Your Account has been successfully created")
+            messages.success(request,"Your Account has been successfully created or some diff error")
             # messages.success(request,f"{myuser.username}  {myuser.password}")
 
         return redirect('login')
